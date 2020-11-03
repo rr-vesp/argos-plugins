@@ -1,6 +1,16 @@
 # argos-plugins
 
-Small collection of some usefull plugins for an amazing GNOME Shell extension [Argos](https://github.com/p-e-w/argos).
+Small collection of usefull plugins created for an amazing GNOME Shell extension [Argos](https://github.com/p-e-w/argos). 
+
+No translation implemented. Translate the plugins for yourself as you like.
+
 
 ## rdp.*.py
 Search for Remmina connection files and create simple menu. Gropus of connections are separated in submenus.
+
+## tasks.*.py
+Show taskwarrior tasks in a list.
+
+Dependencies: [taskw](https://pypi.org/project/taskw)
+
+
