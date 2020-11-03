@@ -6,7 +6,7 @@ No translation implemented. Translate the plugins for yourself as you like.
 
 
 ## rdp.*.py
-Search for Remmina connection files and create simple menu. Gropus of connections are separated in submenus.
+Search for Remmina connection files and create simple menu. Groups of connections are separated in submenus.
 
 Depenencies: [Remmina](https://remmina.org/), python3
 
