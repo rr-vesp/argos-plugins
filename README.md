@@ -14,12 +14,12 @@ No translation implemented. Translate the plugins for yourself as you like.
 6. Enjoy!
 
 ## rdp.*.py
-Search for Remmina connection files and create simple menu. Groups of connections are separated in submenus.
+Searches for Remmina connection files and create simple menu. Groups of connections are separated in submenus.
 
 Depenencies: [Remmina](https://remmina.org/), python3
 
 ## tasks.*.py
-Show taskwarrior tasks in a list.
+Shows taskwarrior tasks in a list.
 
 Dependencies: [Taskwarrior](https://taskwarrior.org/), [taskw](https://pypi.org/project/taskw), python3
 
