@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+#strings to translate
+strListAll="Zobrazit všechny úkoly"
+
 from taskw import TaskWarrior
 w = TaskWarrior()
 tasks = w.load_tasks()
@@ -16,7 +19,7 @@ def render_tasks():
             rend = rend + tasks['pending'][i]['description'] + " | bash='task " + str(i+1)  + "'" + '\n'
             # str(tasks['pending'][i]['tags']) +"\n"
 
-  rend = rend + "---\n <span weight='bold'>Zobrazit všechny úkoly</span> | bash='task' iconName=task-past-due-symbolic-symbolic"
+  rend = rend + "---\n <span weight='bold'>" + strListAll + "</span> | bash='task' iconName=task-past-due-symbolic-symbolic"
   return rend
   
 

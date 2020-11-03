@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 #
 
+#strings to translate
+strOpenApp="Otevřít všechna spojení"
+
 from os import listdir
 from os.path import isfile, join
 from pathlib import Path
@@ -28,7 +31,7 @@ qCounter = 0
 for cnFile in files:
     if "remmina" in cnFile:
         
-        # display connections in groups, only group GROUP displayed as top level
+        # display connections in groups, only group GROUP display as top level
         cnData = getconnection(cnFile)
         if (not(cnData[0].upper() == "GROUP")):
             if (not(qDom == cnData[0].upper())):
@@ -41,5 +44,6 @@ for cnFile in files:
         #print (":horse:")
 
 print ("---")
-#print ("Přidat nové spojení | bash='remmina -n' terminal=false iconName=list-add-symbolic")
-print ("<span weight='bold'>Otevřít Remmina</span> | bash='remmina' terminal=false iconName=remmina-panel")
+
+#print ("Přidat nové spojení | bash='remmina --new-note' terminal=false iconName=list-add-symbolic")
+print ("<span weight='bold'>"+strOpenApp+"</span> | bash='remmina' terminal=false iconName=remmina-panel")
